@@ -44,4 +44,5 @@ def secondtable(df2):
 #
 # #combine both table
 #
-# joined_tables = Tf.join(start_timestamp,Tf.product_number == start_timestamp.product_number,"outer").show()
+# def finaltable(Tf,start_timestamp):
+#     joined_tables = Tf.join(start_timestamp, Tf.product_number == start_timestamp.product_number, "outer")#.show()

@@ -10,4 +10,5 @@ schema2=['SourceId','TransactionNumber','Language','ModelNumber','StartTime','Pr
 df2 = spark.createDataFrame(data2,schema2)
 # Timestamp
 #util_assignment.Timestamp(df)
-util_assignment.secondtable(df2)
+#util_assignment.secondtable(df2)
+util_assignment.finaltable(util_assignment.Timestamp(),util_assignment.secondtable())
